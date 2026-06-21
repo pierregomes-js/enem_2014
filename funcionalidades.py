@@ -26,15 +26,6 @@ def replace(item):
     return float(novo_item)
 
 
-
-# def filtrar(lista, condicao, atributo):
-#     nova_lista = []
-#     for dict in lista:
-#         if condicao(lista, dict, atributo):
-#             nova_lista.append(dict)
-
-#     return nova_lista
-
 def filtrar(lista, condicao):
     nova_lista = []
     for dict in lista:
